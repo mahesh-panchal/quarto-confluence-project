@@ -2,18 +2,21 @@
 title: "Analysis setup"
 ---
 
-## List files
+## List project files
 
-```{bash}
+```{python}
 #| echo: true
-ls -lR .
+!ls -1R ..
 ```
 
-## Version check
+## Version check
 
-```{bash}
+```{python}
 #| echo: true
-pixi --version
-jupyter --version
-quarto --version
+!echo "# Pixi"
+!pixi --version
+!echo "# Jupyter"
+!jupyter --version
+!echo "# Quarto"
+!quarto --version
 ```

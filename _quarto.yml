@@ -2,4 +2,4 @@ project:
   type: confluence
   title: "Exploring Quarto to Confluence"
 
-
+engine: jupyter
