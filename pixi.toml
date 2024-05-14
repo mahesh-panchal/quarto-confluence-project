@@ -12,3 +12,6 @@ platforms = ["osx-arm64"]
 quarto = ">=1.4.550,<1.5"
 jupyter = ">=1.0.0,<1.1"
 ipyleaflet = ">=0.19.1,<0.20"
+plotly = ">=5.22.0,<5.23"
+pandas = ">=2.2.2,<2.3"
+statsmodels = ">=0.14.1,<0.15"
