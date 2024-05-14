@@ -13,8 +13,8 @@ Samples are monsters under the stairs.
 ```{python}
 from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles
 map_sweden = Map(
-    center=[63.9861,16.4090],
-    zoom=10
+    center=[60.2861,16.4090],
+    zoom=5
 )
 map_sweden.add_layer(Marker(location=[59.8586,17.6389]))
 map_sweden.add_layer(Marker(location=[59.3293,18.0686]))
