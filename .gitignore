@@ -1,0 +1,6 @@
+# pixi environments
+.pixi
+
+# Quarto files
+/.quarto/
+/_site/

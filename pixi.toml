@@ -1,0 +1,12 @@
+[project]
+name = "quarto-confluence-project"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Mahesh Binzer-Panchal <mahesh.binzer-panchal@nbis.se>"]
+channels = ["conda-forge", "bioconda"]
+platforms = ["osx-arm64"]
+
+[tasks]
+
+[dependencies]
+quarto = ">=1.4.550,<1.5"
