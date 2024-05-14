@@ -1,0 +1,19 @@
+---
+title: "Analysis setup"
+---
+
+## List files
+
+```{bash}
+#| echo: true
+ls -lR .
+```
+
+## Version check
+
+```{bash}
+#| echo: true
+pixi --version
+jupyter --version
+quarto --version
+```
