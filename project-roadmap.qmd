@@ -1,0 +1,26 @@
+---
+title: 'Project Roadmap'
+---
+
+This is a rough idea of what we're going to try:
+
+```{mermaid}
+---
+title: Roadmap
+---
+flowchart LR
+    data[Sample Data] --> clean(Clean Data)
+    clean --> subsample(Subsample Data)
+    subsample --> prototype(Prototype Analysis)
+    clean --> analyse(Analyse Full Data)
+    prototype --> analyse
+```
+
+## Data
+
+See [Data description](data-description.qmd).
+
+## Clean
+
+- Check for NA's.
+

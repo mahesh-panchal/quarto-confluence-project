@@ -1,0 +1,25 @@
+---
+title: Meeting notes - 24/05/14
+---
+
+## Details
+
+| :- | :--- |
+| Date and Time | 24/05/14 - 15.00 |
+| Location | Zoom |
+| Attendees | PostDoc, Me, Consult |
+| Absent | PI, Coordinator |
+| Next meeting | undecided |
+
+## Agenda
+
+- What happened?
+- What's next?
+
+## Decisions and Actions
+
+- Me: Write some more code.
+- PostDoc: Sample more data points.
+
+## Additional notes
+

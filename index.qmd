@@ -1,0 +1,23 @@
+---
+title: "Exploring Quarto to Confluence"
+---
+
+## Project meta data
+
+| :- | :--- |
+| PI | Prof V. Important |
+| Contact | Dr H. Working |
+| Assignee | Me |
+| Project ID | 54321 |
+| Coordinator | C. Ordinator |
+
+## Project Description
+
+Project blurb goes here.
+
+### Objectives
+
+- Plots
+- Report
+- Git Repo
+- Article
