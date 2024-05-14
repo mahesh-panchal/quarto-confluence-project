@@ -4,17 +4,23 @@ title: 'Project Roadmap'
 
 This is a rough idea of what we're going to try:
 
+::::{.columns}
+:::{.column}
 ```{mermaid}
+%%| label: project-roadmap
+%%| echo: true
 ---
 title: Roadmap
 ---
-flowchart LR
+flowchart TD
     data[Sample Data] --> clean(Clean Data)
     clean --> subsample(Subsample Data)
     subsample --> prototype(Prototype Analysis)
     clean --> analyse(Analyse Full Data)
     prototype --> analyse
 ```
+:::
+:::{.column}
 
 ## Data
 
@@ -24,3 +30,8 @@ See [Data description](data-description.qmd).
 
 - Check for NA's.
 
+:::
+::::
+
+Linking to figure @project-roadmap doesn't work. This probably
+needs a [raw confluence block](https://quarto.org/docs/publishing/confluence.html#raw-confluence-blocks).
