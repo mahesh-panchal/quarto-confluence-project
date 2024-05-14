@@ -4,6 +4,7 @@ title: Meeting notes - 24/05/14
 
 ## Details
 
+| Attributes | |
 | :- | :--- |
 | Date and Time | 24/05/14 - 15.00 |
 | Location | Zoom |

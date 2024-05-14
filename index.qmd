@@ -4,6 +4,7 @@ title: "Exploring Quarto to Confluence"
 
 ## Project meta data
 
+| Attributes | |
 | :- | :--- |
 | PI | Prof V. Important |
 | Contact | Dr H. Working |
