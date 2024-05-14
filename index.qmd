@@ -22,3 +22,76 @@ Project blurb goes here.
 - Report
 - Git Repo
 - Article
+
+## Testing raw markup
+
+::: {.callout-tip}
+## Tip
+
+These could be included as [conditional content](https://quarto.org/docs/authoring/conditional.html).
+:::
+
+::: {.callout-caution}
+Preview prints them as code blocks.
+:::
+
+### Tasks
+
+```{=confluence}
+<ac:task-list>
+    <ac:task>
+        <ac:task-id>1</ac:task-id>
+        <ac:task-status>complete</ac:task-status>
+        <ac:task-body><span class="placeholder-inline-tasks">Wake Up</span></ac:task-body>
+    </ac:task>
+    <ac:task>
+        <ac:task-id>2</ac:task-id>
+        <ac:task-status>incomplete</ac:task-status>
+        <ac:task-body><span class="placeholder-inline-tasks">Brush Teeth</span></ac:task-body>
+    </ac:task>
+    <ac:task>
+        <ac:task-id>3</ac:task-id>
+        <ac:task-status>incomplete</ac:task-status>
+        <ac:task-body><span class="placeholder-inline-tasks">Eat Breakfast</span></ac:task-body>
+    </ac:task>
+</ac:task-list>
+```
+
+### Emoji
+```{=confluence}
+<ac:emoticon ac:name="blue-star" ac:emoji-shortname=":sunrise_over_mountains:" ac:emoji-id="1f304" ac:emoji-fallback="🌄" />
+```
+
+### Decisions
+```{=confluence}
+<ac:adf-extension>
+    <ac:adf-node type="decision-list">
+        <ac:adf-attribute key="local-id">ad7b0a98-1e3e-4863-8f23-ff44dbd7dfa1</ac:adf-attribute>
+        <ac:adf-node type="decision-item">
+            <ac:adf-attribute key="local-id">c25ea574-62d6-4770-bf11-5a27f3309d56</ac:adf-attribute>
+            <ac:adf-attribute key="state">DECIDED</ac:adf-attribute>
+            <ac:adf-content>Use Quarto</ac:adf-content>
+        </ac:adf-node>
+    </ac:adf-node>
+    <ac:adf-fallback>
+        <ul class="decision-list">
+            <li>Use Quarto</li>
+        </ul>
+    </ac:adf-fallback>
+</ac:adf-extension>
+```
+
+### Page Tree
+
+```{=confluence}
+<ac:structured-macro ac:name="pagetree" ac:schema-version="1" ac:local-id="19b56ab5-7126-4b5c-bb75-03763218ffc4" ac:macro-id="2889812da02196ef0d0256f347599000">
+    <ac:parameter ac:name="root">
+        <ac:link>
+            <ri:page ri:content-title="@self" />
+        </ac:link>
+    </ac:parameter>
+    <ac:parameter ac:name="startDepth">2</ac:parameter>
+</ac:structured-macro>
+```
+
+
