@@ -16,9 +16,9 @@ map_sweden = Map(
     center=[63.9861,16.4090],
     zoom=10
 )
-map_swdeen.add_layer(Marker(location=[59.8586,17.6389]))
-map_swdeen.add_layer(Marker(location=[59.3293,18.0686]))
-map_swdeen.add_layer(Marker(location=[55.7047,13.1910]))
-map_swdeen.add_layer(Marker(location=[63.8258,20.2630]))
+map_sweden.add_layer(Marker(location=[59.8586,17.6389]))
+map_sweden.add_layer(Marker(location=[59.3293,18.0686]))
+map_sweden.add_layer(Marker(location=[55.7047,13.1910]))
+map_sweden.add_layer(Marker(location=[63.8258,20.2630]))
 map_sweden
 ```
