@@ -3,3 +3,6 @@ project:
   title: "Exploring Quarto to Confluence"
 
 engine: jupyter
+execute:
+  cache: true
+  freeze: auto
