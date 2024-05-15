@@ -4,5 +4,7 @@
 # Quarto files
 /.quarto/
 /_site/
+/_freeze/
 *.xml
 *.ipynb
+.jupyter_cache/
