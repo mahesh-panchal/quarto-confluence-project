@@ -6,7 +6,7 @@ This is a rough idea of what we're going to try:
 
 ::::{.columns}
 :::{.column}
-```{mermaid}
+```{.mermaid}
 %%| label: project-roadmap
 %%| echo: true
 ---
